@@ -3,21 +3,22 @@
 
 
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     width: 100vw;
     height: 100vh;
     display: flex;
-    flex-direction: column;;
+    flex-direction: column;
+    ;
     /* justify-content: center; */
     align-items: center;
-    
-    
-    
+
+
+
 }
 
 
@@ -25,10 +26,13 @@ body{
 .section1 {
     width: 70%;
     height: 12rem;
-    background: #4B79A1;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #283E51, #4B79A1);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #283E51, #4B79A1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
+    background: #4B79A1;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #283E51, #4B79A1);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #283E51, #4B79A1);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -44,7 +48,7 @@ body{
         23px 48px 52px rgba(0, 0, 0, 0.05);
 }
 
-.profile_pic{
+.profile_pic {
     width: 38%;
     height: 100%;
     display: flex;
@@ -52,24 +56,25 @@ body{
     align-items: center;
 
 }
-.profile_name{
+
+.profile_name {
     font-family: "Handjet", sans-serif;
-/* font-optical-sizing: auto; */
-text-decoration: none;
-text-transform: capitalize;
-padding: 0;
-/* font-size: 24px; */
+    /* font-optical-sizing: auto; */
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 0;
+    /* font-size: 24px; */
 
 }
 
 
-.defaul_Header{
-        font-family: "Protest Guerrilla", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-        margin: 0;
-        padding: 0;
-   
+.defaul_Header {
+    font-family: "Protest Guerrilla", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+
 }
 
 .profile_pic img {
@@ -79,14 +84,14 @@ padding: 0;
     /* width: auto; */
 }
 
-.profile_con{
+.profile_con {
     width: 40%;
     /* height: 100%; */
-    display: flex; 
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+
     /* flex-direction: column;
     justify-content: center;
     align-items: center; */
@@ -103,11 +108,11 @@ padding: 0;
 
 .icon:hover {
     color: #005582;
-    
+
     transform: scale(1.1);
 }
 
-.icon:hover i{
+.icon:hover i {
     margin-bottom: 10px;
 }
 
@@ -118,17 +123,17 @@ padding: 0;
 
 
 
-.section2{
+.section2 {
     width: 70%;
     height: max-content;
     border: 1px solid black;
     margin-top: 10px;
     display: flex;
-   
-    
+
+
 }
 
-.section_2_left{
+.section_2_left {
     width: 35%;
     height: 100%;
     display: flex;
@@ -137,51 +142,53 @@ padding: 0;
     align-items: flex-start;
     margin-left: 10px;
     border-radius: 1px solid rgb(120, 10, 10);
-    
+
 }
 
-.sec2h1{
+.sec2h1 {
     font-size: 25px;
     text-decoration: none;
     margin-left: 10px;
-    
+
 }
 
-.list li{
+.list li {
     text-decoration: none;
     row-gap: 10px;
-  font-family: "Handjet", sans-serif;
-  font-optical-sizing: auto;
-  font-size: 24px;
-   
-  
+    font-family: "Handjet", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 24px;
+
+
 }
 
 
-.sec2_right{
+.sec2_right {
     width: 70%;
     border: 1px solid rgb(120, 10, 10);
 }
-.sec2_right_about_p{
-text-decoration: none;
-row-gap: 10px;
-font-family: "Handjet", sans-serif;
-font-optical-sizing: auto;
-font-size: 24px;
+
+.sec2_right_about_p {
+    text-decoration: none;
+    row-gap: 10px;
+    font-family: "Handjet", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 24px;
 }
 
 
-.section2_Experience{
+.section2_Experience {
     width: 100%;
     height: max-content;
     border: 1px solid rgb(120, 10, 10);
 }
+
 /* ____________ EXP */
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Handjet:wght@100..900&display=swap');
 
 
-.exp{
+.exp {
     display: flex;
     width: 100%;
     /* margin-top: 5px; */
@@ -189,45 +196,45 @@ font-size: 24px;
     border: 1px solid black;
 }
 
-.exp_left{
+.exp_left {
     width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.exp_right{
+.exp_right {
     width: 50%;
-    
+
 }
 
-.exp_data_h1{
-font-family: "Bebas Neue", sans-serif;
-font-weight: 400;
-font-style: normal;
+.exp_data_h1 {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .list li i {
     font-size: 18px;
-    
+
 }
 
 .list li {
     text-decoration: none;
-   padding-bottom: 5px;
+    padding-bottom: 5px;
 }
 
 /* ______________________AWD______ */
 
-.sec3h1{
+.sec3h1 {
     font-size: 20px;
 }
 
-.sec3{
+.sec3 {
     margin-top: 10px;
 }
 
-.sb{
+.sb {
     font-weight: bold;
 }
 
@@ -236,13 +243,14 @@ font-style: normal;
 
 /* _______EDU________ */
 
-.edu_data{
+.edu_data {
     margin-left: 12px;
 }
 
-h3{
+h3 {
     text-decoration: none;
 }
-h4{
+
+h4 {
     text-decoration: none;
 }
