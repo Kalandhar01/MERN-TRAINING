@@ -1,0 +1,248 @@
+<@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;;
+    /* justify-content: center; */
+    align-items: center;
+    
+    
+    
+}
+
+
+
+.section1 {
+    width: 70%;
+    height: 12rem;
+    background: #4B79A1;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #283E51, #4B79A1);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #283E51, #4B79A1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 5px;
+    box-shadow:
+        0.6px 1.3px 1.4px rgba(0, 0, 0, 0.014),
+        1.5px 3.2px 3.5px rgba(0, 0, 0, 0.02),
+        2.9px 6px 6.5px rgba(0, 0, 0, 0.025),
+        5.1px 10.7px 11.6px rgba(0, 0, 0, 0.03),
+        9.6px 20.1px 21.7px rgba(0, 0, 0, 0.036),
+        23px 48px 52px rgba(0, 0, 0, 0.05);
+}
+
+.profile_pic{
+    width: 38%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.profile_name{
+    font-family: "Handjet", sans-serif;
+/* font-optical-sizing: auto; */
+text-decoration: none;
+text-transform: capitalize;
+padding: 0;
+/* font-size: 24px; */
+
+}
+
+
+.defaul_Header{
+        font-family: "Protest Guerrilla", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        margin: 0;
+        padding: 0;
+   
+}
+
+.profile_pic img {
+    height: 9rem;
+    width: 9rem;
+    border-radius: 50%;
+    /* width: auto; */
+}
+
+.profile_con{
+    width: 40%;
+    /* height: 100%; */
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    /* flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    /* align-items: center; */
+}
+
+
+.icon {
+    font-size: 15px;
+    margin: 10px;
+    color: #b50000;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.icon:hover {
+    color: #005582;
+    
+    transform: scale(1.1);
+}
+
+.icon:hover i{
+    margin-bottom: 10px;
+}
+
+
+/* _________________________________  SECTION 2*/
+
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&display=swap');
+
+
+
+.section2{
+    width: 70%;
+    height: max-content;
+    border: 1px solid black;
+    margin-top: 10px;
+    display: flex;
+   
+    
+}
+
+.section_2_left{
+    width: 35%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    margin-left: 10px;
+    border-radius: 1px solid rgb(120, 10, 10);
+    
+}
+
+.sec2h1{
+    font-size: 25px;
+    text-decoration: none;
+    margin-left: 10px;
+    
+}
+
+.list li{
+    text-decoration: none;
+    row-gap: 10px;
+  font-family: "Handjet", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 24px;
+   
+  
+}
+
+
+.sec2_right{
+    width: 70%;
+    border: 1px solid rgb(120, 10, 10);
+}
+.sec2_right_about_p{
+text-decoration: none;
+row-gap: 10px;
+font-family: "Handjet", sans-serif;
+font-optical-sizing: auto;
+font-size: 24px;
+}
+
+
+.section2_Experience{
+    width: 100%;
+    height: max-content;
+    border: 1px solid rgb(120, 10, 10);
+}
+/* ____________ EXP */
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Handjet:wght@100..900&display=swap');
+
+
+.exp{
+    display: flex;
+    width: 100%;
+    /* margin-top: 5px; */
+
+    border: 1px solid black;
+}
+
+.exp_left{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.exp_right{
+    width: 50%;
+    
+}
+
+.exp_data_h1{
+font-family: "Bebas Neue", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.list li i {
+    font-size: 18px;
+    
+}
+
+.list li {
+    text-decoration: none;
+   padding-bottom: 5px;
+}
+
+/* ______________________AWD______ */
+
+.sec3h1{
+    font-size: 20px;
+}
+
+.sec3{
+    margin-top: 10px;
+}
+
+.sb{
+    font-weight: bold;
+}
+
+
+
+
+/* _______EDU________ */
+
+.edu_data{
+    margin-left: 12px;
+}
+
+h3{
+    text-decoration: none;
+}
+h4{
+    text-decoration: none;
+}
