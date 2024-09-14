@@ -51,17 +51,20 @@
         let Age = document.getElementById("Age").value;
 
         // console.log(`Name: ${name}, Email: ${email}, Phone: ${phone}, Address: ${address}`);
+        if(Name !=="" && Email !=="" && Phone !=="" && Address !=="" && Age !==""){
 
-        const data = {
+        var data = {
             name: Name,
             email: Email,
             phone: Phone,
             address: Address, 
-            age:Age
+            age:Age,
+            userType: Age>=18 ? "user is greater than 18" : "user is less than 18"
         };
 
-        const {name, email, phone, address,age} = data;
-        console.log(`Name: ${name}, Email: ${email}, Phone: ${phone}, Address: ${address} , Age: ${age}`);
+    }
+        var {name, email, phone, address,age,userType} = data;
+        console.log(`Name: ${name}, Email: ${email}, Phone: ${phone}, Address: ${address} , Age: ${age}, userType: ${userType}`);
     }
 </script>
 

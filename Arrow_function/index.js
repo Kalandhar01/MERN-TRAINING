@@ -32,12 +32,26 @@
 
 // nopar(10);
 
+///looping
 
-let loop = (n) => {
-    for(let i = 1; i <=n; i++)
-    {
-        console.log(i);
-    }
+
+// let loop = (n) => {
+//     for(let i = 1; i <=n; i++)
+//     {
+//         console.log(i);
+//     }
+// }
+
+// loop(10);
+
+// Operator
+let a = '0';
+let b = 10;
+console.log(typeof(a), typeof(b));
+
+if(a == b){
+    console.log("equal value only");
 }
-
-loop(10);
+else {
+console.log("not a equals");
+}
