@@ -1,14 +1,9 @@
-import React from 'react';
-// import './App.css'
-import Input from './component/Input';
+import React from 'react'
 
-function App() {
-  
-
+const App = () => {
   return (
     <>
-    <Input/>
-     
+      
     </>
   )
 }
